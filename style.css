@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-cars {
+  display: flex;
+  width: 920px;
+  height: 500px;
+}
+
+.card-sedan {
+  display: grid;
+  grid-template-rows: auto auto auto auto; /* Imagem, título, texto, botão */
+  background-color: #e28625;
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.card-suv {
+  display: grid;
+  grid-template-rows: auto auto auto auto; /* Imagem, título, texto, botão */
+  background-color: #006971; /* cor padrão, mas vamos sobrescrever */
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.card-luxury {
+  display: grid;
+  grid-template-rows: auto auto auto auto; /* Imagem, título, texto, botão */
+  background-color: #004140;
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Big Shoulders";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 212px;
+  height: 125px;
+  margin-bottom: 20px;
+  justify-self: center;
+}
+
+button {
+  background-color: #f2f2f2;
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.card-sedan button {
+  color: #e28625;
+}
+
+.card-suv button {
+  color: #006971;
+}
+
+.card-luxury button {
+  color: #004140;
+}
