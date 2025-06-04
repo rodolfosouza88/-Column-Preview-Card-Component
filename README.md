@@ -6,6 +6,10 @@ Este é um projeto simples de um layout de cards de veículos desenvolvido com *
 
 ---
 
+## 📸 Preview Online
+
+🔗 [Acesse o projeto publicado aqui](https://column-preview-card-component-emoq.vercel.app/)
+
 ## 🚀 Tecnologias utilizadas
 
 - HTML5
